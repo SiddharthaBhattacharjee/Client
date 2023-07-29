@@ -208,7 +208,16 @@ function App() {
                   </div>
                   <div className="flex gap-4 items-center">
                     <button onClick={connectWallet} className="bg-[#52057B] p-3 px-6 text-white rounded-xl">Connect Wallet</button>
-                    <p className="text-[#52057B] text-lg underline underline-offset-8 cursor-pointer " >Continue with Google</p>
+                    <Link to={{
+       pathname: '/chat',
+       data:{
+          updatefunc: updateHandler
+       }
+    }}>
+            <p className="text-[#52057B] text-lg underline underline-offset-8 cursor-pointer " >Continue to Chat</p>
+            
+          </Link>
+                    
                   </div>
                 </div>
               </div>
