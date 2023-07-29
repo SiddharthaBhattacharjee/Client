@@ -202,9 +202,9 @@ function App() {
             <div className="grid grid-cols-12">
               <div className="lg:h-[80dvh] h-auto flex flex-col justify-center col-span-12 md:col-span-5 md:order-1 order-2">
                 <div className="mx-3 lg:mx-12">
-                  <div className="text-4xl font-bold">Sentinel.AI</div>
+                  <div className="text-4xl font-bold">Saaha-AI</div>
                   <div className="my-6">
-                    Sentinel.AI system lets callers talk to AI if there are no available 911 operators, grading them on the scale of how important their call is based on the keywords and recording their location. While the responses are being gathered, it will prioritize their call and hand over the call transcript to the 911 operator.
+                    Saaha-AI system lets callers talk to AI if there are no available 911 operators, grading them on the scale of how important their call is based on the keywords and recording their location. While the responses are being gathered, it will prioritize their call and hand over the call transcript to the 911 operator.
                   </div>
                   <div className="flex gap-4 items-center">
                     <button onClick={connectWallet} className="bg-[#52057B] p-3 px-6 text-white rounded-xl">Connect Wallet</button>
@@ -276,7 +276,7 @@ function App() {
             onClick={copyPhoneNumberToClipboard}
           ></img>
           <div>-----------------------------------------</div>
-          <div>Looks Like You are not WhiteListed, Only authorised <b>Sentinel.AI</b> Team Members are allowed to access this page.</div>
+          <div>Looks Like You are not WhiteListed, Only authorised <b>Saaha-AI</b> Team Members are allowed to access this page.</div>
           <div>Contact Us to get your wallet address added to whitelist</div>
           <div>-----------------------------------------</div>
           <div style={{
